@@ -3,7 +3,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Con
 import random
 import sqlite3
 
-TOKEN = "YOUR_BOT_TOKEN_HERE"  # <-- Замени на свой токен
+TOKEN = "8091412559:AAHgqI_YrIiVrgIQ5jWhmMvtaV_2aSglNrg"  # <-- Замени на свой токен
 
 conn = sqlite3.connect("users.db")
 cursor = conn.cursor()
